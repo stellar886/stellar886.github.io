@@ -131,6 +131,7 @@ ul{
 }
 
 
+/* Estilos para desktop */
 @media (min-width: 769px) {
     /* Estilos para a seção de apresentação */
     #apresentacao {
@@ -154,11 +155,11 @@ ul{
     }
 
     #texto-apresentacao {
-        margin-top: 20px; /* Espaço entre a foto e o texto */
+        margin-top: 20px; /* Espaço entre a foto e o texto de apresentação */
     }
 
     #dados-contato {
-        margin-top: 20px; /* Espaço entre o texto e os dados de contato */
+        margin-top: 20px; /* Espaço entre o texto de apresentação e os dados de contato */
     }
 }
 
@@ -176,10 +177,10 @@ ul{
     }
 
     #texto-apresentacao {
-        margin-top: 15px; /* Espaço entre a foto e o texto */
+        margin-top: 15px; /* Espaço entre a foto e o texto de apresentação */
     }
 
     #dados-contato {
-        margin-top: 15px; /* Espaço entre o texto e os dados de contato */
+        margin-top: 15px; /* Espaço entre o texto de apresentação e os dados de contato */
     }
 }
