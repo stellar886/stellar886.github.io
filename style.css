@@ -45,7 +45,9 @@ header {
     border-radius: 5%;
     margin-bottom: 10px;
 }
-
+#curso{
+    font-weight: bold;
+}
 /* Estilo do nome no cabeçalho */
 #nome h1 {
     font-size: 24px;
