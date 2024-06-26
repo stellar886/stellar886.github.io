@@ -98,7 +98,6 @@ footer a:hover {
     color: #000000;
 }
 
-/* Menu fixo no topo da página */
 nav {
     position: fixed;
     width: 100%;
@@ -127,7 +126,8 @@ nav ul li a:hover {
 }
 
 ul{
-    margin: 10px;
+    margin: 20px;
+   
 }
 
 
