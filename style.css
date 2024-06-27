@@ -39,15 +39,17 @@ header {
 }
 
 /* Estilo da foto no cabeçalho */
-#foto img{
+#foto img {
     width: 200px;
     height: auto;
     border-radius: 5%;
     margin-bottom: 10px;
 }
-#curso{
+
+#curso {
     font-weight: bold;
 }
+
 /* Estilo do nome no cabeçalho */
 #nome h1 {
     font-size: 24px;
@@ -125,11 +127,9 @@ nav ul li a:hover {
     color: #998d8d;
 }
 
-ul{
+ul {
     margin: 20px;
-   
 }
-
 
 /* Estilos para desktop */
 @media (min-width: 769px) {
@@ -166,6 +166,11 @@ ul{
 /* Estilos para mobile */
 @media (max-width: 768px) {
     /* Ajustes para o layout responsivo */
+
+    #nome{
+        margin-top: 200px;
+    }
+    
     #header-content {
         display: flex;
         flex-direction: column;
@@ -176,11 +181,19 @@ ul{
         width: 150px;
     }
 
-    #texto-apresentacao {
-        margin-top: 15px; /* Espaço entre a foto e o texto de apresentação */
-    }
 
     #dados-contato {
         margin-top: 15px; /* Espaço entre o texto de apresentação e os dados de contato */
     }
+
+    /* Ajustes para a navegação em dispositivos móveis */
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        text-align: center;
+    }
+
+   
 }
